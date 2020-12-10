@@ -10,7 +10,7 @@ pip install albumentations==0.4.6 -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install geffnet==0.9.8 -i https://pypi.tuna.tsinghua.edu.cn/simple 
 ```
 
-2、输入命令，分割数据集，获得目录
+2、输入命令，分割数据集
 ```
 python tools/data_preprocess.py
 ```
