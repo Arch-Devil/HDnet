@@ -25,7 +25,7 @@ python train.py --config_path "conf/resnet50.yaml"
 
 5、训练结束，测试模型
 ```
-python train.py --config_path "conf/resnet50.yaml"
+python test.py --config_path "conf/resnet50.yaml"
 ```
 
 《人工智能》助教课材料
