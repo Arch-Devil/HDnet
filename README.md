@@ -1,7 +1,7 @@
 # HDnet
 
 ## 训练步骤
-0、下载代码,解压,用pycharm打开项目
+0、下载代码,解压，将数据集放到/data目录下,用pycharm打开项目
 
 1、Pycharm打开菜单View->Tool Windows->Terminal，依次输入以下命令
 ```
@@ -17,18 +17,21 @@ python tools/data_preprocess.py
 
 3、打开文件"conf/resnet50.yaml"，调整参数
 
+4、如果pretrained为True，需要下载预训练模型，链接在下方，文件放到/models目录下
 
-4、运行程序，训练模型
+5、运行程序，训练模型
 ```
 python train.py --config_path "conf/resnet50.yaml"
 ```
 
-5、训练结束，测试模型
+6、训练结束，测试模型
 ```
 python test.py --config_path "conf/resnet50.yaml"
 ```
 
 《人工智能》助教课材料
+预训练模型链接：链接：https://pan.baidu.com/s/1jFHmm4dzxLNvZ8xjwcLadQ 
+提取码：sz51 
 
 数据集链接：https://pan.baidu.com/s/12ZJrvbiK2LqWE--1mQ60_g 
 提取码：70bi 
