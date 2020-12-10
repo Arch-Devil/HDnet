@@ -1,4 +1,33 @@
 # HDnet
+
+## 训练步骤
+0、下载代码,解压,用pycharm打开项目
+
+1、Pycharm打开菜单View->Tool Windows->Terminal，依次输入以下命令
+```
+pip install opencv_python==4.4.0.42 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+pip install albumentations==0.4.6 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+pip install geffnet==0.9.8 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+```
+
+2、输入命令，分割数据集，获得目录
+```
+python tools/data_preprocess.py
+```
+
+3、打开文件"conf/resnet50.yaml"，调整参数
+
+
+4、运行程序，训练模型
+```
+python train.py --config_path "conf/resnet50.yaml"
+```
+
+5、训练结束，测试模型
+```
+python train.py --config_path "conf/resnet50.yaml"
+```
+
 《人工智能》助教课材料
 
 数据集链接：https://pan.baidu.com/s/12ZJrvbiK2LqWE--1mQ60_g 
