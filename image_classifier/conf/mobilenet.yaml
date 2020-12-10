@@ -1,0 +1,22 @@
+data_dir : "./data/" #数据集路径
+data_folder : "./data/"
+image_size : 224 #图像尺寸
+enet_type : "mobilenet"  # resnet50/mobilenet
+metric_strategy : False
+batch_size : 8 #每次处理的图片数量
+num_workers : 4
+init_lr : 3e-5 #初始学习率
+out_dim : 4 #类别数
+n_epochs : 100 #学习轮数
+drop_nums : 1
+loss_type : "ce_loss"  # ce_loss, ce_smothing_loss, focal_loss, bce_loss(多标签，待支持), mlsm_loss(多标签，待支持)
+use_amp : False
+mixup_cutmix : False
+model_dir : "./mobilenet/weight/" #保存权重的路径
+log_dir : "./mobilenet/logs/"
+CUDA_VISIBLE_DEVICES : "0"   # 多GPU训练："0,1,2,3",单张显卡为“0”
+fold : "0,1,2,3,4"
+pretrained : True #是否加载预训练模型
+eval : "best"                  # "best", "final"
+oof_dir : "./mobilenet/oofs/"
+auc_index : "fanbingbing"
