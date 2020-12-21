@@ -25,7 +25,7 @@ PyCharm下载链接：https://download.jetbrains.8686c.com/python/pycharm-profes
 ## 文本生成训练步骤
 0、下载代码,解压,用pycharm打开项目
 
-1、输入命令，爬取数据文本
+1、输入命令，爬取数据文本，也可以直接下载文本数据，放在/data/comment目录下
 ```
 python crawl.py
 ```
