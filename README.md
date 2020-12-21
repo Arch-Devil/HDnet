@@ -31,14 +31,14 @@ python test.py --config_path "conf/resnet50.yaml"
 
 《人工智能》助教课材料
 
+数据集链接：https://pan.baidu.com/s/1BvYKDQS1nhGA30hFrvBo-Q 
+提取码：sbaw 
+
 实验文档链接：https://pan.baidu.com/s/1aY7TYDdLKbydp807-B_Ziw 
 提取码：0chk
 
 预训练模型链接：https://pan.baidu.com/s/1jFHmm4dzxLNvZ8xjwcLadQ 
 提取码：sz51 
-
-数据集链接：https://pan.baidu.com/s/12ZJrvbiK2LqWE--1mQ60_g 
-提取码：70bi 
 
 PyTorch下载链接：https://pan.baidu.com/s/16RnFuGrDp8Nf3bsvRgQ3Fg
 提取码：pxnh
