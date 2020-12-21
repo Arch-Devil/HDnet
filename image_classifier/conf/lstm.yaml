@@ -1,0 +1,15 @@
+mode : "text" # "text"  or "image"
+enet_type : "lstm"
+hidden_dim : 1024
+sequence_len : 10
+num_layers : 1
+num_window : 10
+n_chars : 450
+batch_size : 256
+num_epochs : 400
+min_loss : 10.0
+model_dir : "./LSTM/weights"
+log_dir : "./LSTM/logs/"
+CUDA_VISIBLE_DEVICES : "0"
+pretrained : False #是否加载预训练模型
+lr : 1e-3
