@@ -1,5 +1,28 @@
 # HDnet
 
+
+《人工智能》助教课材料
+
+数据集链接：https://pan.baidu.com/s/1BvYKDQS1nhGA30hFrvBo-Q 
+提取码：sbaw 
+
+实验文档链接：https://pan.baidu.com/s/1aY7TYDdLKbydp807-B_Ziw 
+提取码：0chk
+
+预训练模型链接：https://pan.baidu.com/s/1jFHmm4dzxLNvZ8xjwcLadQ 
+提取码：sz51 
+
+PyTorch下载链接：https://pan.baidu.com/s/16RnFuGrDp8Nf3bsvRgQ3Fg
+提取码：pxnh
+
+CUDA下载链接：https://pan.baidu.com/s/1oYqi2rRinrYWcXwFIjymrA
+提取码：9uyr
+
+Anaconda下载链接：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2019.07-Windows-x86_64.exe
+
+PyCharm下载链接：https://download.jetbrains.8686c.com/python/pycharm-professional-2018.3.5.exe
+
+
 ## 训练步骤
 0、下载代码,解压，将数据集放到/data目录下,用pycharm打开项目
 
@@ -29,24 +52,4 @@ python train.py --config_path "conf/resnet50.yaml"
 python test.py --config_path "conf/resnet50.yaml"
 ```
 
-《人工智能》助教课材料
-
-数据集链接：https://pan.baidu.com/s/1BvYKDQS1nhGA30hFrvBo-Q 
-提取码：sbaw 
-
-实验文档链接：https://pan.baidu.com/s/1aY7TYDdLKbydp807-B_Ziw 
-提取码：0chk
-
-预训练模型链接：https://pan.baidu.com/s/1jFHmm4dzxLNvZ8xjwcLadQ 
-提取码：sz51 
-
-PyTorch下载链接：https://pan.baidu.com/s/16RnFuGrDp8Nf3bsvRgQ3Fg
-提取码：pxnh
-
-CUDA下载链接：https://pan.baidu.com/s/1oYqi2rRinrYWcXwFIjymrA
-提取码：9uyr
-
-Anaconda下载链接：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2019.07-Windows-x86_64.exe
-
-PyCharm下载链接：https://download.jetbrains.8686c.com/python/pycharm-professional-2018.3.5.exe
 
