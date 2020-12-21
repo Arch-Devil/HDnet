@@ -22,8 +22,23 @@ Anaconda下载链接：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Ana
 
 PyCharm下载链接：https://download.jetbrains.8686c.com/python/pycharm-professional-2018.3.5.exe
 
+## 文本生成训练步骤
+0、下载代码,解压,用pycharm打开项目
 
-## 训练步骤
+1、输入命令，爬取数据文本
+```
+python crawl.py
+```
+
+2、打开文件"conf/lstm.yaml"，调整参数
+
+3、运行程序，训练模型
+```
+python train.py --config_path "conf/lstm.yaml"
+```
+
+
+## 人脸分类训练步骤
 0、下载代码,解压，将数据集放到/data目录下,用pycharm打开项目
 
 1、Pycharm打开菜单View->Tool Windows->Terminal，依次输入以下命令
