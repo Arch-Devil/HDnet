@@ -30,8 +30,10 @@ python test.py --config_path "conf/resnet50.yaml"
 ```
 
 《人工智能》助教课材料
+实验文档链接：https://pan.baidu.com/s/1aY7TYDdLKbydp807-B_Ziw 
+提取码：0chk
 
-预训练模型链接：链接：https://pan.baidu.com/s/1jFHmm4dzxLNvZ8xjwcLadQ 
+预训练模型链接：https://pan.baidu.com/s/1jFHmm4dzxLNvZ8xjwcLadQ 
 提取码：sz51 
 
 数据集链接：https://pan.baidu.com/s/12ZJrvbiK2LqWE--1mQ60_g 
